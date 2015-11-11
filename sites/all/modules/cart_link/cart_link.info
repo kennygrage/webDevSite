@@ -1,0 +1,5 @@
+name = Cart Link
+description = Provides a link to the shopping cart
+package = Custom Modules
+core = 7.x
+files[] = cart_link.module

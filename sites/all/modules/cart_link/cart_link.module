@@ -1,0 +1,34 @@
+<?php
+
+// function cart_link_menu() {
+//      $items['cart/new_menu_item'] = array(
+//     'title' => 'Shopping cartzzz (# items)',
+//     'type' => MENU_NORMAL_ITEM,
+//     'access callback' => TRUE,
+//     'page callback' => 'cart_link_new_menu_item_redirect',
+//
+//     'title callback' => 'cart_link_new_menu_item_title',
+//     'title arguments' => array(TRUE),
+//     'access arguments' => array('access content'),
+//   );
+//   return $items;
+// } //end cart_link_module()
+//
+//
+// function cart_link_new_menu_item_redirect(&$form_state) {
+//   $form_state['redirect'] =
+// } //end cart_link_new_menu_item_redirect()
+
+// global $user;
+// $quantity = 0;
+// $order = commerce_cart_order_load($user->uid);
+//
+// if ($order) {
+//   $wrapper = entity_metadata_wrapper('commerce_order', $order);
+//   $line_items = $wrapper->commerce_line_items;
+//   $quantity = commerce_line_items_quantity($line_items, commerce_product_line_item_types());
+//   $total = commerce_line_items_total($line_items);
+//   $currency = commerce_currency_load($total['currency_code']);
+// }
+//
+// print format_plural($quantity, '1 item', '@count items');
